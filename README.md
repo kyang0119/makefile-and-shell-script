@@ -1,7 +1,7 @@
 # makefile-and-shell-script
 
 
-requirment for project
+requirments for project
 
 1. Prepare a makefile for compiling the program comprised of “quadratic.c”, “triples.c”, “sum.c”, and
 “cal.c” or “cal.cpp”. The generated executable should be named as “cal.exe”. Then, write a shell script
