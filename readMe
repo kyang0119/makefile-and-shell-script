@@ -1,0 +1,37 @@
+
+Hello, thank you for reading me. 
+
+I used C for this project. All my programs compiled and run successfully. 
+I will list the commands since some of them take arguments.
+I put all the functions in a .h file and #include "function.h" in the header for Q3 and Q4
+Professor said it is ok to #include a .h file. 
+If you have any questions , please email kxy200010@utdallas.edu
+
+Question 1 command:
+make
+./cal.exe "cal.in"
+//"cal.in" is argument 
+
+
+Question 2 command
+bash execute.sh "sum" 
+//"sum" is the argument, which is the s variable.
+
+Question 3 compile:
+gcc -c admin.c
+gcc -o admin admin.o
+./admin
+
+
+Question 4 compile : 
+gcc -c adminNew2.c
+gcc -c cal-new.c
+gcc -o adminNew2 adminNew2.o cal-new.o triples.o quadratic.o sum.o -lm
+./adminNew2
+
+Question 5 compile: 
+gcc -o pthread pthread.o
+gcc -o pthread pthread.o -lpthread
+./pthread
+
+
